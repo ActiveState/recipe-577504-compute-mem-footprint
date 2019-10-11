@@ -1,6 +1,6 @@
 This repository covers the following recipe from code.activestate.com:
 
-[COMPUTE MEMORY FOOTPRINT OF AN OBJECT AND ITS CONTENTS (PYTHON RECIPE)](https://code.activestate.com/recipes/577504/)
+[COMPUTE MEMORY FOOTPRINT OF AN OBJECT AND ITS CONTENTS](https://code.activestate.com/recipes/577504/)
 
 *Created by Raymond Hettinger on Fri, 17 Dec 2010*
 
