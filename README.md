@@ -22,12 +22,12 @@ If you do not have the [State Tool] installed you can use the following convenie
 
 Linux: 
 ```
-sh <(curl -q https://platform.activestate.com/dl/cli/install.sh) && state activate ActiveState-Recipes/recipe-577504-compute-mem-footprint
+sh <(curl -q https://platform.activestate.com/dl/cli/install.sh) -n -f && state activate --path $HOME/ActiveState-Recipes/recipe-577504-compute-mem-footprint ActiveState-Recipes/recipe-577504-compute-mem-footprint
 ```
 
 Windows: 
 ```
-powershell "IEX(New-Object Net.WebClient).downloadString('https://platform.activestate.com/dl/cli/install.ps1')" && state activate ActiveState-Recipes/recipe-577504-compute-mem-footprint
+powershell "Set-Item -Path Env:NOPROMPT_INSTALL -Value 'true'; IEX(New-Object Net.WebClient).downloadString('https://platform.activestate.com/dl/cli/install.ps1')" && state activate --path %APPDATA%/ActiveState-Recipes/recipe-577504-compute-mem-footprint ActiveState-Recipes/recipe-577504-compute-mem-footprint
 ```
 
 macOS: not yet supported
