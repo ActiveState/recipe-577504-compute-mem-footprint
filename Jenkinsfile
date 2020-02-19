@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // bash is one of the supported shells. Jenkins defaults to sh
+        // Bash is one of the supported shells. Jenkins defaults to sh
         // so we have to set it explicitly here
         SHELL="/bin/bash"
 
