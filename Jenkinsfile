@@ -26,8 +26,7 @@ pipeline {
         stage ('Run recipe') {
             steps {
                 sh '''
-                cd ActiveState-Recipes/recipe-577504-compute-mem-footprint
-                $WORKSPACE/tool run recipe
+                $WORKSPACE/state run recipe
                 '''
             }
         }
